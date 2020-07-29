@@ -16,6 +16,9 @@ public class SignUpTest extends BaseTestObject {
 	@Test
 public void verifyLogo() throws Exception {
 		
+		
+		
+		
 		objSignUpPage = new SignUpPage(uiDriver);
 		objSignUpPage.verifySiteLogo();
 		objSignUpPage.verifyHomePageTitle();
@@ -23,7 +26,7 @@ public void verifyLogo() throws Exception {
 			
 	}
 	
-	@Test
+	@Test 
 	public void clickOnSignUp() throws Exception {
 		objSignUpPage = new SignUpPage(uiDriver);
 		objSignUpPage.clickOnSignUpLink();
